@@ -93,6 +93,124 @@ border: transparent;
 .img-wrap img{
 	margin:35px 80px;
 }
+div .btn btn-default{
+	text-align: center;
+}
+.show{
+	text-align: center;
+}
+.show button{
+	border: transparent;
+	border-radius: 5px;
+}
+.work{
+	padding-top: 15px;
+}
+.heading{
+	text-align: left;
+	float: right;
+	margin: 0 0;
+}
+.heading2{
+	text-align: left;
+	float: left;
+	margin:0;
 
+}
+.members{
+	background-color: pink;
+	text-align: center;
+	height: 500px;
+}
+.members h2{
+	color: cyan;
+	font-weight:700;
+}
+.box{
+	width: 18%;
+	border:3px solid white;
+	background-color: grey;
+}
+.members div{
+	display: inline-block;
+	margin-top: 50px;
+	margin-right:75px;
+}
+.members .icons{
+	padding-right: 15px;
+	margin: 0 auto;
+	text-align: center;
+}
+.members .icons i{
+	padding: 8px;
+}
+.posts{
+	margin: 0;
+	width:100%;
+	background-color: lightblue;
+	text-align: center;
 
+}
+.posts div{
+	padding-right: 15px;
+	background-color: white;
+	margin: 10px 20px;
+	display: inline-block;
+}
+.more{
+	text-align: center;
+	height: 50px;
+	background-color: lightblue;
+	
+}
+.contact{
+	background-color: grey;
+}
+.contact h1{
+	text-align: center;
+	font-size: 22px;
+	padding: 5px;
+	line-height: 10px;
+}
+.contact p{
+	text-align: center;
+	font-size: 14px;
+	padding: 5px;
+	line-height:20px;
+}
+form > input,
+form > textarea{
+     background: white;
+     text-align: left;
+	display: block;
+	padding: 10px;
+	margin: 10px auto;
+	width: 35%;
+	border: 1px solid white;
+	border-radius:8px;
+	color: black;
+}
+.last{
+	padding-top: 10px;
+	text-align: center;
 
+}
+.contact form .last button{
+	background-color: white;
+}
+footer ul li{
+	padding: 10px;
+	display: inline-block;
+}
+footer ul li a{
+	padding: 15px;
+	border-radius: 50%;
+	background-color:grey;
+	
+}
+footer .copyright{
+	float: right;
+}
+footer .copyright p{
+	display: inline;
+}
