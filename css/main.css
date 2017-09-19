@@ -10,8 +10,13 @@ outline: none;
 	background-color: lightblue;
 	padding: 15px;
 }
+.container-fluid ul li a{
+	color: black;
+	font-size:18px;
+	font-weight: 600;
+}
 span{
-	background-color:black;
+	background-color:orangered;
 }
 .nav-img div{
 	vertical-align: top;
@@ -103,8 +108,9 @@ div .btn btn-default{
 	border: transparent;
 	border-radius: 5px;
 }
-.work{
+.works{
 	padding-top: 15px;
+	padding-bottom: 10px;
 }
 .heading{
 	text-align: left;
@@ -118,65 +124,77 @@ div .btn btn-default{
 
 }
 .members{
-	background-color: pink;
 	text-align: center;
 	height: 500px;
+	background-color: pink;
 }
 .members h2{
 	color: cyan;
-	font-weight:700;
+	font-weight:500;
 }
 .box{
-	width: 18%;
+	width: 20%;
 	border:3px solid white;
-	background-color: grey;
+	background-color: #ebebeb;
+	height: 350px;
+	overflow: hidden;
 }
 .members div{
 	display: inline-block;
-	margin-top: 50px;
-	margin-right:75px;
+	margin:0 25px;
 }
-.members .icons{
+/*.members .icons{
 	padding-right: 15px;
 	margin: 0 auto;
 	text-align: center;
-}
+}*/
 .members .icons i{
 	padding: 8px;
 }
 .posts{
-	margin: 0;
+	margin-bottom: 0;
+	padding: 0;
 	width:100%;
 	background-color: lightblue;
 	text-align: center;
 
 }
+.posts h2{
+	margin: 0;
+}
+.box1{
+	/*height: 300px;
+	overflow: hidden;*/
+	width: 20%;
+}
 .posts div{
 	padding-right: 15px;
 	background-color: white;
-	margin: 10px 20px;
+	margin: 10px 30px;
 	display: inline-block;
 }
-.more{
+.posts button .btn .btn-success{
 	text-align: center;
-	height: 50px;
-	background-color: lightblue;
+	
+
 	
 }
 .contact{
 	background-color: grey;
+	margin-top:0; 
 }
 .contact h1{
 	text-align: center;
 	font-size: 22px;
-	padding: 5px;
-	line-height: 10px;
+	margin: 0;
+	font-weight: 700;
+
 }
 .contact p{
 	text-align: center;
 	font-size: 14px;
 	padding: 5px;
-	line-height:20px;
+	line-height:35px;
 }
 form > input,
 form > textarea{
@@ -198,19 +216,49 @@ form > textarea{
 .contact form .last button{
 	background-color: white;
 }
-footer ul li{
-	padding: 10px;
+footer div{
+display: inline-block;
+vertical-align: top;
+}
+
+footer div ul li{
+	padding: 6px;
 	display: inline-block;
 }
 footer ul li a{
-	padding: 15px;
+	padding: 8px;
 	border-radius: 50%;
 	background-color:grey;
 	
 }
 footer .copyright{
 	float: right;
+	margin: 0 10px 0 200px;
+	vertical-align: middle
 }
 footer .copyright p{
+	border-right: 3px solid grey;
 	display: inline;
+	word-spacing: 5px;
+}
+footer .copyright p:nth-child(2){
+	border: none;
+}
+footer .copyright p span{
+	background-color: white;
+	font-weight: 700;
+	color: black;
+}
+
+
+@media (max-width:800px) {
+	ul{
+		padding: 0px;
+	}
+	.container-fluid ul li a{
+		font-size: 10px;
+	}
+	.nav-img div h1{
+		font-size: 14px;
+	}
 }
